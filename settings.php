@@ -1,8 +1,7 @@
 <?php
 
-$token = "8485232892:AAG7L2D8Ztbqu8cdeiu40KjLzB5kCS1jXlA";
+$token = "7835272060:AAE7c1gchWdA4T1ii55UMLEaSkEU3YnuH28";
 $chat_id = "7655000874";
-
 
 
 
